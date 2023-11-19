@@ -1,0 +1,116 @@
+body{
+    background: rgb(231, 157, 169);
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    padding-top: 60px;
+    height: 35vh;
+}
+.box{
+    background: url(pictures/memo.png);
+    background-size: contain;    
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 32% 55% 39% 35% / 48% 62% 32% 51% ;
+}
+
+.article h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.article h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+.article p{
+    padding: 20px;
+    font-size: 12px;
+    text-indent: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #353535;
+    
+}
+
+.bt{
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bt button{
+    height: 50px;
+    width: 240px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background: rgb(235,107,128);
+    background: linear-gradient(137deg, rgba(235,107,128,1) 9%, rgba(219,71,94,1) 81%);
+}
+
+.bt button:hover{
+    opacity: 0.8;  
+}
+
+
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        padding-top: 90px;
+    }
+    .box{   
+        height: 400px;
+        width: 550px;
+    }
+
+    .article{
+        padding-top: 200px;
+    }
+
+    .article h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        line-height: 12px;
+    
+    }
+
+    .article h2{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 55px;
+        line-height: 8px;
+        
+    
+    }
+    .article p{
+        padding: 20px;
+        text-indent: 30px;
+        font-size: 20px;
+
+    }
+
+    .bt{
+        padding: 50px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .bt button{
+        height: 70px;
+        width: 300px;
+        font-size: 20px;
+        border-radius: 30px;
+    }
+ 
+}
